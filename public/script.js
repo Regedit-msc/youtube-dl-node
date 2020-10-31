@@ -1,7 +1,7 @@
 let Btn = document.getElementById("btn");
 let URLinput = document.querySelector(".URL-input");
 let select = document.querySelector(".opt");
-let serverURL = "http://localhost:4000"; // ServerURL
+let serverURL = "https://frightening-alien-47733.herokuapp.com"; // ServerURL
 
 Btn.addEventListener("click", () => {
   if (!URLinput.value) {
